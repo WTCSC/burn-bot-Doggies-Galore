@@ -1,1 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/SN1b4VoA)
+# BurnBot
+A simple AIO fixed response chatbot written in Python. 
+
+**Please note that this script was developed for a course and is not fully representative of my capabilities.**
+
+### The framework:
+The script silently pulls down the latest copy from the cloud as you run it, which keeps content fresh and allows for much more dynamic content while interacting with it.
+
+### The response model:
+Most Questions are open-ended. All are input validated, and many are stored for future reference **locally**. This program uses subprocess to collect additional context about the user. **All collected and user-generated content is not collected and remains local. But unlike Eufy, my code is OSS.**
+
+### The roast:
+Pretty tame tbh. Have fun!
